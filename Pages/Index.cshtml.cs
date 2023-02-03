@@ -14,7 +14,7 @@ namespace Hellodotnet7.Pages
 
         public void OnGet()
         {
-
+            _logger.LogInformation($"Time now is: {DateTime.UtcNow}");
         }
     }
 }
